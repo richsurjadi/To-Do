@@ -13,6 +13,7 @@
 		DEA185D21DFC37E000DEF301 /* To_Do.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEA185D01DFC37E000DEF301 /* To_Do.xcdatamodeld */; };
 		DEA185D41DFC37E000DEF301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA185D31DFC37E000DEF301 /* Assets.xcassets */; };
 		DEA185D71DFC37E000DEF301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA185D51DFC37E000DEF301 /* LaunchScreen.storyboard */; };
+		DEA185DF1DFECA4100DEF301 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA185DE1DFECA4100DEF301 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DEA185D31DFC37E000DEF301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA185D61DFC37E000DEF301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEA185D81DFC37E000DEF301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA185DE1DFECA4100DEF301 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				DEA185C91DFC37E000DEF301 /* AppDelegate.swift */,
 				DEA185CB1DFC37E000DEF301 /* ViewController.swift */,
+				DEA185DE1DFECA4100DEF301 /* Task.swift */,
 				DEA185CD1DFC37E000DEF301 /* Main.storyboard */,
 				DEA185D31DFC37E000DEF301 /* Assets.xcassets */,
 				DEA185D51DFC37E000DEF301 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA185DF1DFECA4100DEF301 /* Task.swift in Sources */,
 				DEA185D21DFC37E000DEF301 /* To_Do.xcdatamodeld in Sources */,
 				DEA185CC1DFC37E000DEF301 /* ViewController.swift in Sources */,
 				DEA185CA1DFC37E000DEF301 /* AppDelegate.swift in Sources */,
