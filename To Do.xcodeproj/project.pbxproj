@@ -8,24 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		DEA185CA1DFC37E000DEF301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA185C91DFC37E000DEF301 /* AppDelegate.swift */; };
-		DEA185CC1DFC37E000DEF301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA185CB1DFC37E000DEF301 /* ViewController.swift */; };
+		DEA185CC1DFC37E000DEF301 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA185CB1DFC37E000DEF301 /* TasksViewController.swift */; };
 		DEA185CF1DFC37E000DEF301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA185CD1DFC37E000DEF301 /* Main.storyboard */; };
 		DEA185D21DFC37E000DEF301 /* To_Do.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEA185D01DFC37E000DEF301 /* To_Do.xcdatamodeld */; };
 		DEA185D41DFC37E000DEF301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA185D31DFC37E000DEF301 /* Assets.xcassets */; };
 		DEA185D71DFC37E000DEF301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA185D51DFC37E000DEF301 /* LaunchScreen.storyboard */; };
 		DEA185DF1DFECA4100DEF301 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA185DE1DFECA4100DEF301 /* Task.swift */; };
+		DEA185E11E00EC3100DEF301 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA185E01E00EC3100DEF301 /* CreateTaskViewController.swift */; };
+		DEA185E31E0645C800DEF301 /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA185E21E0645C800DEF301 /* CompleteTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DEA185C61DFC37E000DEF301 /* To Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA185C91DFC37E000DEF301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DEA185CB1DFC37E000DEF301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEA185CB1DFC37E000DEF301 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		DEA185CE1DFC37E000DEF301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEA185D11DFC37E000DEF301 /* To_Do.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = To_Do.xcdatamodel; sourceTree = "<group>"; };
 		DEA185D31DFC37E000DEF301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA185D61DFC37E000DEF301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEA185D81DFC37E000DEF301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEA185DE1DFECA4100DEF301 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		DEA185E01E00EC3100DEF301 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		DEA185E21E0645C800DEF301 /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				DEA185C91DFC37E000DEF301 /* AppDelegate.swift */,
-				DEA185CB1DFC37E000DEF301 /* ViewController.swift */,
+				DEA185CB1DFC37E000DEF301 /* TasksViewController.swift */,
+				DEA185E21E0645C800DEF301 /* CompleteTaskViewController.swift */,
+				DEA185E01E00EC3100DEF301 /* CreateTaskViewController.swift */,
 				DEA185DE1DFECA4100DEF301 /* Task.swift */,
 				DEA185CD1DFC37E000DEF301 /* Main.storyboard */,
 				DEA185D31DFC37E000DEF301 /* Assets.xcassets */,
@@ -145,8 +151,10 @@
 			files = (
 				DEA185DF1DFECA4100DEF301 /* Task.swift in Sources */,
 				DEA185D21DFC37E000DEF301 /* To_Do.xcdatamodeld in Sources */,
-				DEA185CC1DFC37E000DEF301 /* ViewController.swift in Sources */,
+				DEA185E31E0645C800DEF301 /* CompleteTaskViewController.swift in Sources */,
+				DEA185CC1DFC37E000DEF301 /* TasksViewController.swift in Sources */,
 				DEA185CA1DFC37E000DEF301 /* AppDelegate.swift in Sources */,
+				DEA185E11E00EC3100DEF301 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
